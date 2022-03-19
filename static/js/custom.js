@@ -7,13 +7,7 @@
         return this.length > 0;
     };
 
-	/* ---------------------------------------------- /*
-	 * Pre load
-	/* ---------------------------------------------- */
-	NAY.PreLoad = function() {
-		document.getElementById("loading").style.display = "none"; 
-	}
-
+	
     /*--------------------
         * Menu Close
     ----------------------*/
@@ -317,15 +311,7 @@
       }
     }
 
-    /*--------------------
-        * Video Bg
-    ----------------------*/
-    NAY.VideoBG = function() {
-      if ($(".video-bg").exists()){
-        loadScript(plugin_track + 'vide/jquery.vide.min.js', function() {
-        });
-      }
-    }
+
 
     /*--------------------
         * Type It

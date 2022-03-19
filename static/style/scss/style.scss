@@ -391,8 +391,7 @@
 	}
 }
 
-/* fun
-------------------*/
+
 .feature-box-2 {
 	padding: 18px 15px;
 	border-radius: 5px;
@@ -424,8 +423,7 @@
 	}
 }
 
-/* Services
-------------------*/
+
 .feature-box-1 {
 	padding: 40px 30px;
 	background: $px-white;
@@ -471,8 +469,7 @@
 	}
 }
 
-/* Portfolio
-------------------*/
+
 .portfolio-content {
 	margin-left: -10px;
 	shape-margin: -10px;
@@ -558,25 +555,6 @@
 }
 
 
-/* Testimonials
-------------------*/
-.testimonial-col-01 {
-	background: $px-white;
-	padding: 20px;
-	margin-top: 15px;
-	margin-bottom: 25px;
-	border: 1px solid #edd;
-	.img {
-		width: 120px;
-		height: 120px;
-		overflow: hidden;
-		border-radius: 50% 0 50% 50%;
-		@include down-sm {
-			width: 60px;
-			height: 60px;
-		}
-	}
-}
 
 /* Blog
 ------------------*/
@@ -619,8 +597,7 @@
 	}
 }
 
-/* Contact Us
-------------------*/
+
 .contact-form {
 	border-radius: 5px;
 	background: $px-white;

@@ -1,33 +1,6 @@
-/*---------------------------------
-* sec-round
------------------------------------*/
-.sec-round {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-	.full-height {
-	  height: 100%;
-	}
-	.round-item {
-		float: left;
-		width: 20%;
-		height: 100%;
-		box-sizing: border-box;
-		border-right: 1px solid rgba(153, 153, 153, 0.11);
-		height: 100%;
-		position: relative;
-	  	&:first-child {
-	  		border-left: 1px solid rgba(153, 153, 153, 0.11);
-		}
-	}
-}
 
 
-/* ----------------------
-*	Section
--------------------------*/
+
 .container-large {
 	max-width: 1440px;
 }
@@ -62,9 +35,7 @@
 }
 
 
-/* ----------------------
-*	Box shadow
----------------------------*/
+
 .box-shadow-lg {
 	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
 }
@@ -87,25 +58,15 @@
 	border-radius: 50% ;
 }
 
-/* ----------------------
-*	Opacity
----------------------------*/
+
 @for $i from 1 through 9 {
 	.opacity-#{$i} {
 		opacity: #{$i / 10};
 	}
 }
 
-/* ----------------------
-*	transeition
----------------------------*/
-.transition  {
-	@include transition(ease-in-out all 0.35s);
-}
 
-/* ----------------------
-*	Image Hover
----------------------------*/
+
 .img-hover {
 	.img-hover-in {
 		overflow: hidden;
@@ -122,9 +83,7 @@
 		}
 	}
 }
-/* ----------------------
-*	Top Hover
----------------------------*/
+
 .hover-top {
 	position: relative;
 	top: 0;
@@ -133,9 +92,7 @@
 	}
 }
 
-/* ----------------------
-*	Grayscale Hover
----------------------------*/
+
 .grayscale {
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -159,8 +116,6 @@
 	font-family: $px-font-alt;
 }
 
-/*	Property
----------------------------*/
 .bg-cover {
 	background-size: cover;
 }
@@ -174,16 +129,14 @@
 	background-position: center;
 } 
 
-/* Letter spacing
--------------------------------*/
+
 @for $i from 1 through 10 {
 	.letter-spacing-#{$i} {
 		letter-spacing: #{$i}px;
 	}
 }
 
-/* Height Width
---------------------*/
+
 @for $i from 1 through 20 {
 	.w-#{$i * 5}px {
 		width: #{$i * 5}px;
@@ -228,15 +181,14 @@
 	}
 }
 
-/* Font wight
---------------------*/
+
 @for $i from 1 through 9 {
 	.font-w-#{$i * 100} {
 		font-weight: #{$i * 100}
 	}
 }
 
-// Margin Padding mixin
+
 $mp-name: (
 	"m":"margin",
 	"p":"padding",

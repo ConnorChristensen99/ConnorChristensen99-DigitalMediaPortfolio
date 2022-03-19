@@ -1,5 +1,4 @@
-/*	Toggle Menu
--------------------------*/
+
 .navbar-toggler,
 .toggler-menu {
 	width: 40px;
@@ -52,8 +51,7 @@
 }
 
 
-/* Side Menu
------------------------------*/
+
 .header-left {
     position: fixed;
     top: 0;
@@ -132,8 +130,7 @@
 }
 
 
-/* Header Dark
------------------------------*/
+
 @include up-md {
 	.header-dark {
 		padding: 0;
@@ -177,8 +174,7 @@
 	}
 }
 
-/* Header Dark
------------------------------*/
+
 @include up-md {
 	.header-white {
 		padding: 0;
@@ -225,8 +221,7 @@
 }
 
 
-/* Mobile 
------------------------------*/
+
 @include down-md {
 	.header-nav {
 	    position: fixed;
