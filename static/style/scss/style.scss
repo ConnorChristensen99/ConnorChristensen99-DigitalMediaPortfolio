@@ -16,8 +16,7 @@
 	overflow: hidden;
 }
 
-/* Home Banner 1
-----------------------*/
+
 .home-banner-01 {
 	position: relative;
 	@include down-sm {
@@ -119,22 +118,8 @@
 	}
 }
 
-@-webkit-keyframes down {
-    0%   { top:5px; opacity: 0; }
-    30%  { top:15px; opacity: 1; }
-    60%  { top:15px; opacity: 0.60; }
-    100% { top:25px; opacity: 0; }
-}
-
-@keyframes down {
-    0%   { top:5px; opacity: 0; }
-    30%  { top:15px; opacity: 1; }
-    100% { top:25px; opacity: 0; }
-}
 
 
-/* Home Banner 2
-----------------------*/
 .home-banner-02 {
 	position: relative;
 	&:after {
@@ -247,8 +232,7 @@
 	}
 }
 
-/* home-banner-03
-----------------------*/
+
 .home-banner-03 {
 	.full-scree {
 		height: 100vh;
@@ -297,8 +281,7 @@
 	}
 }
 
-/* About Us
-----------------------*/
+
 .about-me-img {
 	border: 14px solid $px-white;
 	border-radius: 5px;
@@ -475,7 +458,7 @@
 	shape-margin: -10px;
 	.grid-item {
 		padding: 10px;
-		width: calc(100% / 3);
+		width: calc(100% / 2);
 		float: left;
 	}
 }
@@ -497,7 +480,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba($px-dark, 0.7);
+		background: rgba($px-dark, 0.9);
 		@include transition(ease all 0.35s);
 		opacity: 0;
 		@include flexbox;
@@ -522,7 +505,7 @@
 		    padding: 2px 12px;
 		    display: inline-block;
 		    vertical-align: top;
-		    font-size: 14px;
+		    font-size: 18px;
 		    @include transition(ease all 0.35s);
 		    position: relative;
 		    left: -25px;
